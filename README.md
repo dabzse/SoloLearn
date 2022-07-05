@@ -2,8 +2,9 @@
 ---
 ## Code Coach solutions
 
-### now only available without the pro
-### now only available the easy level
+### only available without the pro
+### "fully" available: easy level
+### partially available: medium level
 ### now only available for the python language
 [hope I didn't mistype in a codes]
 
