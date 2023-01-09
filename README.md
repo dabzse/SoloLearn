@@ -21,5 +21,5 @@ will update later, possible for all of the available languages
 but medium and hard in python anyway...
 
 + pro versions if I will have it (again)
- 
+
 @dabzse {{ MNY }}
