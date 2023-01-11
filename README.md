@@ -1,25 +1,25 @@
 # SoloLearn
 ---
 ## Code Coach solutions
+## Code Repo "final" versions
+## Some solutions for the other programming languages
+### (re-thinking and re-structuring in progress)
 
-### only available without the pro
-### "fully" available: easy level
-### partially available: medium level
-### now only available for the python language
-[hope I didn't mistype in a codes]
-
-will update later, possible for all of the available languages
+will update later, possible for/to all of the available languages
 - (
+  - .r
+  - .sql
   - .c
   - .cpp
   - .cs
+  - .kt
   - .java
   - .rb
   - .swift
+  - .go
+  - .js
 - )
 
-but medium and hard in python anyway...
-
-+ pro versions if I will have it (again)
+\+ pro versions if I will have it (again)
 
 @dabzse {{ MNY }}
