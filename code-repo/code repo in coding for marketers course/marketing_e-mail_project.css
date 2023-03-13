@@ -1,0 +1,35 @@
+/* Don't touch this code */
+
+/* unfortunately I had to touch: removing unwanted "?" signs */
+
+
+.h_center {
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px auto;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}

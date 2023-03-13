@@ -1,0 +1,27 @@
+body {
+    background-color:#c3c3c3;
+}
+
+h1 {
+    text-align: center;
+    color: #4c6ebb;
+}
+
+p {
+    text-align: center;
+}
+
+canvas {
+    width: 100%;
+    background-color: black;
+}
+
+#jump {
+    background-color: #1982e4;
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    height: 100px;
+    width: 100%;
+}
