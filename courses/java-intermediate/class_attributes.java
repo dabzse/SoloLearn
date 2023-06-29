@@ -1,19 +1,27 @@
 import java.util.Scanner;
 
-public class Main {
+public class class_attributes {
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
-        String firstName = read.nextLine();
-        String secondName = read.nextLine();
-        int age = read.nextInt();
-        int roomNumber = read.nextInt();
-        Customer customer = new Customer();
-        // set customer's data to object here
-        customer.firstName = firstName;
-        customer.secondName = secondName;
-        customer.age = age;
-        customer.roomNumber = roomNumber;
-        customer.saveCustomerInfo();
+
+/**
+ * Resource leak: 'read' is never closed
+ * Scanner read - Main.main(String[])
+ * : quick fix :: surround with try-with-resources
+ */
+
+        try (Scanner read = new Scanner(System.in)) {
+            String firstName = read.nextLine();
+            String secondName = read.nextLine();
+            int age = read.nextInt();
+            int roomNumber = read.nextInt();
+            Customer customer = new Customer();
+            // set customer's data to object here
+            customer.firstName = firstName;
+            customer.secondName = secondName;
+            customer.age = age;
+            customer.roomNumber = roomNumber;
+            customer.saveCustomerInfo();
+        }
     }
 }
 

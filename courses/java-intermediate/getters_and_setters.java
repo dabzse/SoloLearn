@@ -3,17 +3,25 @@ import java.util.Scanner;
 class Main {
 
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
-        String name = read.nextLine();
-        int age = read.nextInt();
-        Student student = new Student();
-        student.name = name;
 
-        // set the age via Setter
-        student.setAge(age);
+/**
+ * Resource leak: 'read' is never closed
+ * Scanner read - Main.main(String[])
+ * : quick fix :: surround with try-with-resources
+ */
 
-        System.out.println("Name: " + student.name);
-        System.out.println("Age: " + student.getAge());
+        try (Scanner read = new Scanner(System.in)) {
+            String name = read.nextLine();
+            int age = read.nextInt();
+            Student student = new Student();
+            student.name = name;
+
+            // set the age via Setter
+            student.setAge(age);
+
+            System.out.println("Name: " + student.name);
+            System.out.println("Age: " + student.getAge());
+        }
     }
 }
 
