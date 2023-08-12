@@ -1,0 +1,2 @@
+SELECT revenue
+FROM movies;
