@@ -1,5 +1,12 @@
+/** Just Add Some Colors */
+
 h1 {
     font-size: 28px;
+}
+
+h2 {
+    color: #2F5A78;
+    font-size: 20px;
 }
 
 #position {
@@ -8,9 +15,4 @@ h1 {
 
 .summary {
     font-size: 16px;
-}
-
-h2 {
-    color: #2F5A78;
-    font-size: 20px;
 }
