@@ -1,0 +1,1 @@
+console.log("Solving my first JavaScript Code Coach!");
