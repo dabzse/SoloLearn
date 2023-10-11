@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    color: #2f5a82;
+    font-size: 20px;
+}
+
+#position {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.summary {
+    font-size: 16px;
+}
