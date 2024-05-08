@@ -1,0 +1,4 @@
+import numpy as np
+
+multiples = np.array([i for i in range(1, 100) if i % 3 == 0 and i % 5 == 0])
+print(multiples)
