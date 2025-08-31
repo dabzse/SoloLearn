@@ -7,13 +7,13 @@ class Main {
  * it was:
  * public class Main {}
  * so I just removed the `public` and now shows no errors
-*/
+ */
     public static void main(String[ ] args) {
 /**
  * Resource leak: 'read' is never closed
  * Scanner read - Main.main(String[])
  * : quick fix :: surround with try-with-resources
-*/
+ */
         try (Scanner scanner = new Scanner(System.in)) {
             LinkedList<Integer> nums = new LinkedList<Integer>();
 
@@ -22,10 +22,11 @@ class Main {
                 nums.add(num);
             }
 
-            Iterator<Integer> it = nums.iterator();
             int sum = 0;
+            // your code goes here
+            Iterator<Integer> it = nums.iterator();
             while(it.hasNext())
-            sum += it.next();
+                sum += it.next();
             System.out.println(sum);
         }
     }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
 
-        /**
+/**
  * Resource leak: 'read' is never closed
  * Scanner read - Main.main(String[])
  * : quick fix :: surround with try-with-resources

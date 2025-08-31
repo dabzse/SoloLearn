@@ -8,8 +8,8 @@ class Main {
         // set priority
         welcome.setPriority(10);
 
-        name.start();
         welcome.start();
+        name.start();
     }
 }
 

@@ -1,4 +1,4 @@
-import  java.util.Scanner;
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Program {
         if(temp >= 100) {
             System.out.println("Boiling");
         }
-        else{
+        else {
             System.out.println("Not boiling");
         }
     }

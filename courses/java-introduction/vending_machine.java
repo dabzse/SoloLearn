@@ -1,4 +1,4 @@
-import  java.util.Scanner;
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
@@ -8,7 +8,8 @@ public class Program {
         int choice = sc.nextInt();
         if (choice >= 0 && choice < menu.length) {
             System.out.println(menu[choice]);
-        } else {
+        }
+        else {
             System.out.println("Invalid");
         }
     }

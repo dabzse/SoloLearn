@@ -9,7 +9,7 @@ class Demo{
         int price = scanner.nextInt();
         // complete the code
         if(price <= 12_000) {
-            System.out.println( "enough");
+            System.out.println("enough");
         }
     }
 }

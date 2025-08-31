@@ -7,7 +7,7 @@ public class Main {
 }
 
 class Loading {
-    //mcomplete the class, add LoadingMessage() method
+    // complete the class, add LoadingMessage() method
     public void LoadingMessage() {
         System.out.println("Loading");
     }
