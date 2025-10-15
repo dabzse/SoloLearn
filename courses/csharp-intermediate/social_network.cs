@@ -16,7 +16,7 @@ namespace Code_Coach_Challenge {
         public Post() {
             Console.WriteLine("New post");
         }
-        public void Show() {
+        public void ShowPost() {
             Console.WriteLine(text);
         }
 
