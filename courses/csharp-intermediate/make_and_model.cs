@@ -8,7 +8,7 @@ namespace SoloLearn {
             string modelName = Console.ReadLine();
 
             Car car = new Car();
-            car.BrandName = brandName;
+            car.Brand = brandName;
             car.Model = modelName;
             car.ShowBrand();
             car.ShowModel();
