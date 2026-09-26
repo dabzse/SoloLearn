@@ -10,6 +10,7 @@ int main() {
     if (popsicles % siblings == 0) {
 		cout << "give away" << endl;
 	}
+
 	else {
 		cout << "eat them yourself" << endl;
 	}

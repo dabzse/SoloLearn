@@ -8,7 +8,9 @@ public class Program {
 
         if (popsicles > 0 && popsicles % siblings == 0) {
             System.out.println("give away");
-        } else {
+        }
+
+        else {
             System.out.println("eat them yourself");
         }
     }

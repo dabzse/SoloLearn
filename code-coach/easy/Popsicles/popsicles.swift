@@ -4,6 +4,7 @@ let popsicles = Int(readLine()!)!
 let result = popsicles % siblings
 if popsicles > 0 && result == 0 {
     print("give away")
-} else {
+}
+else {
     print("eat them yourself")
 }
