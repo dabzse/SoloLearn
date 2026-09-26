@@ -1,12 +1,18 @@
 # SoloLearn
 
-my profile link is:\
-<http://sololearn.com/en/profile/23451135>\
+my profile link is:  
+<https://sololearn.com/en/profile/23451135>  
 mentor since: November 2023
 
 ---
 
 ## Code Coach solutions
+
+code-coach solutions got restructured and separated, and added some missing ones. there will be all.
+
+- easy, medium, hard
+  - also separated by practices
+  - solutions are there in all languages
 
 ## Code Repo "final" versions
 
@@ -29,7 +35,5 @@ will update later, possible for/to all of the available languages
   - .go
   - .js
 - )
-
-\+ pro versions if I will have it (again)
 
 @dabzse {{ MNY }}
